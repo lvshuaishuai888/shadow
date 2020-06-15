@@ -33,7 +33,7 @@ export default new Vuex.Store({
             // 不能直接修改state的数据
             setTimeout(() => {
                 context.commit('addN', flag)
-            }, 1000)
+            }, 2000)
         },
         subMumAsync (context) {
             setTimeout(() => {
